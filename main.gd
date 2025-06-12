@@ -2,6 +2,7 @@ extends Node2D
 
 @onready var paddle_scene = preload("res://paddle.tscn")
 @onready var brick_scene = preload("res://brick.tscn")
+@onready var ball_scene = preload("res://ball.tscn")
 @onready var paddle = $Paddle
 
 func _ready():
